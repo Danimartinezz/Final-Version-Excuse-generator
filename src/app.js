@@ -22,8 +22,8 @@ let generateExcuse = function() {
 
   let whoindex = Math.floor(Math.random() * who.length);
   let whatindex = Math.floor(Math.random() * what.length);
-  let whereindex = Math.floor(Math.random() * when.length);
-  let whenindex = Math.floor(Math.random() * where.length);
+  let whenindex = Math.floor(Math.random() * when.length);
+  let whereindex = Math.floor(Math.random() * where.length);
 
   return (
     who[whoindex] +
